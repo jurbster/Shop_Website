@@ -2,3 +2,65 @@ p{
     font-size: 30px;
     color: blue;
 }
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.05rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+
+header .navbar h1{
+    font-family: 'Times New Roman', Times, serif;
+    /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-size: 3rem;
+    color: lightgreen;
+    padding-right: 12rem;
+    text-align: left;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    background: green;
+    background: linear-gradient(90deg, green, lightgreen);
+    padding: 1rem;
+}
+
+header .navbar ul li{
+    margin: 1.2rem;
+    color: rgb(21, 61, 21);
+}
+
+/*Home page section*/
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+    background: url(images/plant.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+
+.home .content{
+    flex: 1 1 40rem;
+}
+
+.home .content h1{
+    color: rgb(23, 82, 23);
+    align-items: left;
+    padding: 2rem;
+    margin-top: 6rem;
+}
+
