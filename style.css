@@ -1,8 +1,3 @@
-p{
-    font-size: 30px;
-    color: blue;
-}
-
 *{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.05rem;
@@ -15,12 +10,17 @@ p{
     transition: all .2s linear;
 }
 
+header .navbar{
+    background: green;
+    background: linear-gradient(90deg, green, lightgreen);
+}
+
 header .navbar h1{
     font-family: 'Times New Roman', Times, serif;
     /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
     font-size: 3rem;
     color: lightgreen;
-    padding-right: 12rem;
+    padding-right: 18rem;
     text-align: left;
 }
 
@@ -29,9 +29,8 @@ header .navbar ul{
     align-items: center;
     justify-content: right;
     list-style: none;
-    background: green;
-    background: linear-gradient(90deg, green, lightgreen);
     padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 header .navbar ul li{
@@ -60,7 +59,34 @@ header .navbar ul li{
 .home .content h1{
     color: rgb(23, 82, 23);
     align-items: left;
-    padding: 2rem;
-    margin-top: 6rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.home .container_box{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-around;*/
+    /*padding: .5rem 0;*/
+    /*margin-left: 13rem;*/
+    justify-content: center;
+}
+
+/*Home page photos*/
+
+.home .container_box .box{
+   /* margin: .5rem;*/
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    /*padding: 1rem;*/
+    width: 10rem;
+    height: 14rem;
+    box-shadow: 0 0 0 1.1rem rgba(0,0,0,0.3);
+}
+
+.home .container_box .box img{
+    width: 100%;
+    height: 100%;
 }
 
