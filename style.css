@@ -35,7 +35,15 @@ header .navbar ul{
 
 header .navbar ul li{
     margin: 1.2rem;
+}
+
+header .navbar ul li a{
     color: rgb(21, 61, 21);
+}
+
+header .navbar ul li a:hover{
+    color: beige;
+    cursor: pointer;
 }
 
 /*Home page section*/
@@ -63,6 +71,8 @@ header .navbar ul li{
     margin-top: 2rem;
 }
 
+/*Home page photos*/
+
 .home .container_box{
     display: flex;
     align-items: center;
@@ -71,8 +81,6 @@ header .navbar ul li{
     /*margin-left: 13rem;*/
     justify-content: center;
 }
-
-/*Home page photos*/
 
 .home .container_box .box{
    /* margin: .5rem;*/
@@ -90,3 +98,16 @@ header .navbar ul li{
     height: 100%;
 }
 
+/*About page section*/
+
+.about{
+    min-height: 100vh;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+    background: url(images/plant.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
