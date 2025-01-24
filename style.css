@@ -16,12 +16,22 @@ header .navbar{
 }
 
 header .navbar h1{
+    align-items: center;
+    justify-content: left;
+    padding-right: 13rem;
+}
+
+header .navbar h1 a{
     font-family: 'Times New Roman', Times, serif;
     /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
     font-size: 3rem;
     color: lightgreen;
-    padding-right: 18rem;
-    text-align: left;
+    align-items: center;
+}
+
+header .navbar h1 a:hover{
+    cursor: pointer;
+    color: greenyellow;
 }
 
 header .navbar ul{
@@ -60,17 +70,6 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
 }
 
-.home .content{
-    flex: 1 1 40rem;
-}
-
-.home .content h1{
-    color: rgb(23, 82, 23);
-    align-items: left;
-    padding: 1rem;
-    margin-top: 2rem;
-}
-
 /*Home page photos*/
 
 .home .container_box{
@@ -90,13 +89,24 @@ header .navbar ul li a:hover{
     /*padding: 1rem;*/
     width: 10rem;
     height: 14rem;
-    box-shadow: 0 0 0 1.1rem rgba(0,0,0,0.3);
+    box-shadow: 0 0 0 1.1rem rgba(0, 0, 0, 0.466);
 }
 
 .home .container_box .box img{
     width: 100%;
     height: 100%;
 }
+
+.home .content{
+    flex: 1 1 40rem;
+}
+
+.home .content h1{
+    color: rgb(23, 82, 23);
+    align-items: left;
+}
+
+
 
 /*About page section*/
 
