@@ -10,6 +10,8 @@
     transition: all .2s linear;
 }
 
+/*Header section*/
+
 header .navbar{
     background: green;
     background: linear-gradient(90deg, green, lightgreen);
@@ -97,13 +99,51 @@ header .navbar ul li a:hover{
     height: 100%;
 }
 
-.home .content{
-    flex: 1 1 40rem;
+/*Call to action home section*/
+
+.action{
+    
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.home .content h1{
+.action .content{
+    flex: 1 1 40rem;
+    display: block;
+    background-color: beige;
+    align-items: center;
+    text-align: left;
+}
+
+.action .content h1{
     color: rgb(23, 82, 23);
-    align-items: left;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding: 5px;
+    font-size: 70px;
+}
+
+.action .content p{
+    color: darkolivegreen;
+    font-size: 30px;
+    margin-left: 2rem;
+    padding: 5px;
+}
+
+/*Fix photo to the right of text*/
+
+.action .content .image{
+    float: right;
+    display: flex;
+}
+
+.action .content .image img{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    float: right;
 }
 
 
