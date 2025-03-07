@@ -77,7 +77,6 @@ header .navbar ul li a:hover{
     cursor: pointer;
 }
 
-/*Home page*/
 
 /*Call to action home section*/
 
@@ -218,7 +217,7 @@ header .navbar ul li a:hover{
 
 .footer .contact{
     padding: 2rem;
-    padding-left: 3rem;
+    padding-left: 3.5rem;
 }
 
 .footer .contact h1{
@@ -257,7 +256,7 @@ header .navbar ul li a:hover{
 }
 
 .footer .contact form .btn:hover{
-    background-color: rgb(74, 117, 109);
+    background-color: #fff;
 }
 
 .footer .links{
@@ -290,12 +289,36 @@ header .navbar ul li a:hover{
 
 .footer .socials{
     padding: 2rem;
-    padding-right: 3rem;
+    margin-right: 3.5rem;
 }
 
 .footer .socials h1{
     color: #fff;
     font-size: 20px;
+}
+
+.footer .socials ul{
+    margin-top: 1.8rem;
+    list-style: none;
+    align-items: center;
+}
+
+.footer .socials ul li{
+    color: #fff;
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.footer .socials ul li p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.footer .socials ul li:hover{
+    color: yellowgreen;
+    cursor: pointer;
 }
 
 /*Footer section ends*/
