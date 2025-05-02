@@ -367,3 +367,15 @@ header .navbar ul li a:hover{
     background-attachment: fixed;
     flex-wrap: wrap;
 }
+
+.care{
+    min-height: 100vh;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+    background: url(images/plant.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex-wrap: wrap; 
+}
